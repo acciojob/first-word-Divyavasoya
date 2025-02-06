@@ -1,6 +1,6 @@
 function firstWord(s) {
-  let s1 = s.trim().split(" ");
-	for (let i=0; i<=s1.length ;i++){
+  let fw = s.trim().split(" ");
+	for (let i=0; i<=fw.length ;i++){
 		let divya = s1[0];
 		return divya;
 	}
