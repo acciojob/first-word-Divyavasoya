@@ -1,7 +1,7 @@
 function firstWord(s) {
   let fw = s.trim().split(" ");
 	for (let i=0; i<=fw.length ;i++){
-		let divya = s1[0];
+		let divya = fw[0];
 		return divya;
 	}
 }
